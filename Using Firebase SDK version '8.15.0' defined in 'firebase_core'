@@ -1,0 +1,6 @@
+Not obvious fix, but... 
+
+´´´
+cd ios
+rm -rf ~/.cocoapods/repos/trunk
+´´´
