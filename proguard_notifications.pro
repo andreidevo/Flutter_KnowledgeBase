@@ -36,3 +36,15 @@
 ## flutter_local_notification plugin rules
 -keep class com.dexterous.** { *; }
 -keep class io.flutter.plugin.editing.** { *; }
+
+
+
+buildTypes {
+  release {
+      signingConfig signingConfigs.release
+      minifyEnabled false
+      shrinkResources false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+      //proguardFile ('proguard-rules.pro')
+  }
+}
