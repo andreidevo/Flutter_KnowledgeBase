@@ -35,3 +35,4 @@
 -keep class com.onesignal.** { *; }
 ## flutter_local_notification plugin rules
 -keep class com.dexterous.** { *; }
+-keep class io.flutter.plugin.editing.** { *; }
